@@ -14,6 +14,8 @@
 		E8FEE2A9228A48140063B6C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FEE2A7228A48140063B6C7 /* LaunchScreen.storyboard */; };
 		E8FEE2B4228A48140063B6C7 /* ServerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEE2B3228A48140063B6C7 /* ServerTestTests.swift */; };
 		E8FEE2BF228A48140063B6C7 /* ServerTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEE2BE228A48140063B6C7 /* ServerTestUITests.swift */; };
+		E8FEE2CD228A58D90063B6C7 /* ArtCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEE2CC228A58D90063B6C7 /* ArtCollectionViewController.swift */; };
+		E8FEE2CF228A5EC00063B6C7 /* ArtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEE2CE228A5EC00063B6C7 /* ArtModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E8FEE2BA228A48140063B6C7 /* ServerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FEE2BE228A48140063B6C7 /* ServerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTestUITests.swift; sourceTree = "<group>"; };
 		E8FEE2C0228A48140063B6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8FEE2CC228A58D90063B6C7 /* ArtCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionViewController.swift; sourceTree = "<group>"; };
+		E8FEE2CE228A5EC00063B6C7 /* ArtModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				E8FEE2A5228A48140063B6C7 /* Assets.xcassets */,
 				E8FEE2A7228A48140063B6C7 /* LaunchScreen.storyboard */,
 				E8FEE2AA228A48140063B6C7 /* Info.plist */,
+				E8FEE2CC228A58D90063B6C7 /* ArtCollectionViewController.swift */,
+				E8FEE2CE228A5EC00063B6C7 /* ArtModel.swift */,
 			);
 			path = ServerTest;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8FEE2CD228A58D90063B6C7 /* ArtCollectionViewController.swift in Sources */,
+				E8FEE2CF228A5EC00063B6C7 /* ArtModel.swift in Sources */,
 				E8FEE2A1228A48130063B6C7 /* ViewController.swift in Sources */,
 				E8FEE29F228A48130063B6C7 /* AppDelegate.swift in Sources */,
 			);
@@ -433,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTAG6SF7M7;
 				INFOPLIST_FILE = ServerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTAG6SF7M7;
 				INFOPLIST_FILE = ServerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
